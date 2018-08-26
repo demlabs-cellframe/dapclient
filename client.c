@@ -78,7 +78,7 @@ void client_stage_status_error_callback(dap_client_t * a_client, void * a_arg )
 
 int main(int argc, char **argv) {
     puts("Client starts");
-    dap_client_remote_init();
+  //  dap_client_remote_init();
     dap_enc_init();
     dap_enc_key_init();
     dap_client_init();
