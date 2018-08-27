@@ -1,6 +1,8 @@
-project(dap-client C)
 cmake_minimum_required(VERSION 3.0)
-
+if(TARGET dap_client)
+    return() # The project has already been built.
+endif()
+project(dap_client C)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_COLOR_MAKEFILE   ON)
 set(CMAKE_C_STANDARD 11)
