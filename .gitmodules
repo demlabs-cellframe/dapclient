@@ -1,3 +1,5 @@
 [submodule "libdap"]
 	path = libdap
 	url = https://github.com/demlabsinc/libdap.git
+	branch = master
+
