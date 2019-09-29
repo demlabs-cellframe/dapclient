@@ -1,5 +1,5 @@
 [submodule "libdap"]
 	path = libdap
-	url = https://github.com/kelvinblockchain/libdap.git
+	url =  https://gitlab.demlabs.net/cellframe/libdap
 	branch = master
 
